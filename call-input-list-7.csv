@@ -1,0 +1,8 @@
+﻿Call #,Input list,mid,Left call,Right call
+1,"[38,12,45,7,29,3,81,16,50,24]",5,merge_sort(left),merge_sort(right)
+2,"[38,12,45,7,29]",2,merge_sort(left),merge_sort(right)
+3,"[38,12]",1,merge_sort([38]),merge_sort([12])
+4,[38],—,base case,—
+5,[12],—,base case,—
+6,"[45,7,29]",1,merge_sort([45]),"merge_sort([7,29])"
+…,…,…,…,…
